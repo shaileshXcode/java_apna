@@ -8,15 +8,28 @@ public class rev2 {
     //        int lastDigit = n % 10 ;
     //        System.out.print(lastDigit + " ");
     //        n = n / 10 ;
-    for(int i = 1 ; i <=10 ; i ++ ){
-         if (i ==3 ) {
-            break;
-        }
-        System.out.println( i );
+    // for(int i = 1 ; i <=10 ; i ++ ){
+    //     System.out.println( i );
+    //     if (i ==3 ) {
+    //         break;
+    //     }
+    // }
        
-    }
-       
+        // do {
+        //     System.out.println( "enetr your number ");
+        //     int n = sc.nextInt();
+        //     if (n %10 == 0 ) {
+        //         break;
+        //     }
+        // }while(true);
+        int num = 20 ; 
+        for(int i = 2 ;i < num ; i ++){
+            if(num % i != 0){
+                System.out.println("prime number ");
+                break;
+            }
             
+        }
     }
     }
 
